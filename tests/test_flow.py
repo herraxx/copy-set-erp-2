@@ -1,0 +1,55 @@
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from common import APP
+from playwright.sync_api import sync_playwright
+import json
+with sync_playwright() as p:
+    b=p.chromium.launch(); pg=b.new_page(viewport={"width":1300,"height":900})
+    errs=[]; pg.on("pageerror",lambda e: errs.append(str(e)))
+    pg.goto(APP)
+    pg.wait_for_timeout(300)
+    pg.screenshot(path="w0.png")
+    N=lambda v: pg.click(f"#snav [data-nav={v}]")
+    # customer
+    N("customers"); pg.click("main [data-act=new-customer]")
+    pg.fill("[data-cu=name]","Testi Oy"); pg.fill("[data-cu=ytunnus]","1234567-8"); pg.fill("[data-cu='contacts.0.name']","Maija"); pg.fill("[data-cu='contacts.0.email']","m@example.fi")
+    pg.fill("[data-cu='addresses.0.street']","Katu 1"); pg.fill("[data-cu='addresses.0.postcode']","00100"); pg.fill("[data-cu='addresses.0.city']","Helsinki")
+    pg.fill("[data-cu='billing.street']","Katu 1"); pg.fill("[data-cu='billing.postcode']","00100"); pg.fill("[data-cu='billing.city']","Helsinki")
+    pg.click("[data-ed=save-customer]")
+    # offer
+    pg.click(".actionbar [data-act=new-offer]")
+    pg.fill("#custq","testi"); pg.click("[data-pick]")
+    pg.select_option("[data-ed-change=group]","p03"); pg.fill("[data-i='0.qty']","500")
+    pg.click("[data-ed=add-pex][data-k='1']"); pg.fill("[data-f=deadline]","2026-10-20")
+    pg.select_option("[data-ed-change=delivery]","Posti"); pg.select_option("[data-ed-change=address]","0")
+    pg.screenshot(path="w1.png", full_page=True)
+    pg.click("[data-ed=ready]"); print("offer", pg.inner_text("h1"))
+    pg.screenshot(path="w2.png", full_page=True)
+    pg.click("[data-doc=offer]"); pg.wait_for_timeout(200); pg.screenshot(path="d_offer.png"); pg.click("#docclose")
+    pg.click("[data-act=send-offer]"); pg.click("#confyes")
+    pg.click("[data-open-offer]"); pg.click("[data-act=accept-offer]"); pg.click("#choicebtns [data-choice='0']"); pg.wait_for_timeout(200); print("order", pg.inner_text("main .head h1"))
+    pg.click("[data-doc=orderconf]"); pg.wait_for_timeout(200); pg.screenshot(path="d_conf.png"); pg.click("#docclose")
+    pg.click("[data-act=start-prod]"); pg.click("#confyes")
+    pg.fill("[data-wof=prodNotes]","Tarkista värit"); pg.click("[data-stage='Käynnissä']")
+    pg.screenshot(path="w3.png", full_page=True)
+    pg.click("[data-doc=workcard]"); pg.wait_for_timeout(200); pg.screenshot(path="d_work.png"); pg.click("#docclose")
+    pg.click("[data-act=finish-prod]"); pg.click("#confyes")
+    for d in ["delivery","label","receipt"]:
+        pg.click(f"[data-doc={d}]"); pg.wait_for_timeout(150); pg.screenshot(path=f"d_{d}.png"); pg.click("#docclose")
+    pg.click("[data-act=to-invoice]"); pg.click("#confyes")
+    pg.click("[data-act=approve-invoice]"); pg.click("#confyes")
+    pg.click("[data-doc=invoice]"); pg.wait_for_timeout(150); pg.screenshot(path="d_invoice.png"); pg.click("#docclose")
+    print("final", pg.inner_text(".head .sub"))
+    # admin
+    N("admin"); pg.screenshot(path="w4.png", full_page=True)
+    pg.fill("[data-tonehex=O]","#FF8800"); pg.select_option("[data-bmap='act:start-prod']","G")
+    pg.fill("[data-plt='p01.0.price']","51"); pg.click("[data-act=save-pricelist]")
+    pg.click("[data-act=save-admin]")
+    st=json.loads(pg.evaluate("localStorage.getItem('copyset-erp-v1')"))
+    print("theme", st["settings"]["theme"]["tones"]["O"], st["settings"]["theme"]["buttons"], st["products"]["p01"]["baseCost"])
+    N("dashboard"); pg.screenshot(path="w5.png")
+    # draft delete
+    pg.click(".actionbar [data-act=new-offer]"); pg.click("[data-ed=new-cust]"); pg.fill("[data-c=name]","Luonnos Oy"); pg.click("[data-ed=draft]")
+    pg.click("tbody tr >> nth=0"); print("draft", pg.inner_text("h1")); pg.click("[data-act=delete-offer]"); pg.click("#confyes"); print("after delete", pg.url.split("#")[1])
+    pg.set_viewport_size({"width":390,"height":844}); N("orders"); pg.screenshot(path="m_orders.png")
+    print(errs); b.close()

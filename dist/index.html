@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Copy-Set ERP</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Ccircle cx='15' cy='15' r='9' fill='none' stroke='%232A2A2A' stroke-width='2'/%3E%3Cpath d='M15 2v26M2 15h26' stroke='%232A2A2A' stroke-width='2'/%3E%3Ccircle cx='15' cy='15' r='3.5' fill='%23F7941D'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="reg" viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="9" fill="none" stroke="#2A2A2A" stroke-width="2"/><path d="M15 2v26M2 15h26" stroke="#2A2A2A" stroke-width="2"/><circle cx="15" cy="15" r="3.5" fill="var(--t-O)"/></svg>
+    <b>Copy-Set</b>
+  </div>
+  <nav class="topnav" id="snav" aria-label="Päävalikko"></nav>
+</header>
+<div class="actionbar">
+  <span></span>
+  <div class="ab-btns"><button class="btn lg" data-act="new-offer">+ Uusi tarjous</button><button class="btn lg" data-act="new-order">+ Uusi tilaus</button></div>
+  <span class="store" id="storeinfo">Ladataan…</span>
+</div>
+<main id="main"></main>
+<div id="print-area"></div>
+
+<dialog id="docdlg">
+  <div class="dlg-h"><b id="doctitle"></b><div class="row" id="docextra"></div><div class="row"><button class="btn" id="docprint" data-btn="docprint">Tulosta</button><button class="btn" id="docclose" data-btn="docclose">Sulje</button></div></div>
+  <div class="dlg-b"><div class="sheet-fit" id="docbody"></div></div>
+</dialog>
+<dialog id="calcdlg">
+  <div class="dlg-h"><b id="qctitle">Pikalaskuri</b><button class="btn" data-btn="docclose" id="qcclose">Sulje</button></div>
+  <div class="dlg-b" id="qcbody"></div>
+</dialog>
+<dialog id="choicedlg" class="small">
+  <div class="dlg-h"><b id="choicetitle"></b></div>
+  <div class="dlg-b" id="choicebody"></div>
+  <div class="dlg-f" id="choicebtns"></div>
+</dialog>
+<dialog id="confdlg" class="small">
+  <div class="dlg-h"><b id="conftitle">Vahvista</b></div>
+  <div class="dlg-b" id="confbody"></div>
+  <div class="dlg-f"><button class="btn t-W" id="confno">Peruuta</button><button class="btn t-O" id="confyes">Vahvista</button></div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="hailer-boot.js"></script>
+<script src="app.js" defer></script>
+</body>
+</html>

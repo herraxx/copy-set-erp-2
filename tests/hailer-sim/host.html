@@ -1,0 +1,8 @@
+<!doctype html><html><body style="margin:0">
+<script>
+window.__hailer = { seq:0, updates:0, admin:true, apps:[], acts:[],
+  workflows:[{_id:"wf1", key:"copyset_erp_data", workspaceId:"ws1", phasesOrder:["ph1"], fields:{f1:{_id:"f1", key:"erp_json", type:"textarea", label:"Data"}}}],
+  emit(name, ids, wf){ setTimeout(() => this.apps.forEach(a => a.o.signals && a.o.signals({name, data:{activityIds:ids, workflowId:wf, phaseId:"ph1"}})), 30); } };
+</script>
+<iframe id="app" src="dist/index.html" style="width:1280px;height:880px;border:0"></iframe>
+</body></html>

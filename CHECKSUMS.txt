@@ -1,0 +1,12 @@
+# sha256 – a correct copy of the app has exactly these files and hashes
+60f862f1868895414f8523e5763cab91dcc2caa7d830720031714154806add9a  dist/app.js
+c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b  dist/fonts/OFL-LICENSE.txt
+5717f37059660ca5c899bad6c48ee22c3ac55cb3c484055241689d0f905a1a86  dist/fonts/archivo-latin-ext-wdth-normal.woff2
+e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e  dist/fonts/archivo-latin-wdth-normal.woff2
+8b719bc3eb94a335857fb615a60d4179c69684552183724eb040e894409caa19  dist/fonts/fonts.css
+88d7ea82aad202c93fa76ab3916bb5ca8ec02215c4b07d75cd1159949d8ed3ed  dist/hailer-boot.js
+9af48b92346f26f67c2ca187091d76f4214a41bdb076654e9f66662ef22f2d4a  dist/index.html
+6ec7e6faf01f7bc1ed81722d67299c0443499753dd1fa7a5a0708859a2cdd9d8  dist/manifest.json
+cc9cacc2bd8e3168fd08b1ea84efbec180c0cd14b5935daf30a6bc494c18d85f  dist/styles.css
+82ffd6170efba6cdada8021e5d6be4def4351fe9cb9726a927dbf92ea87c7e35  dist/vendor/app-sdk.js
+1981428b5fc6cd0dd105164e5ffff8f75221e8add0efbe9dec854aef77af2c5f  single/copyset-erp.html

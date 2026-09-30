@@ -1,0 +1,4442 @@
+{
+ "app": "copyset-erp",
+ "version": 1,
+ "exportedAt": "2026-09-25T07:51:30.049000Z",
+ "customers": {
+  "c-b2tjtg2s": {
+   "addresses": [
+    {
+     "city": "Helsinki",
+     "label": "Kahvila",
+     "postcode": "00120",
+     "street": "Fredrikinkatu 22"
+    }
+   ],
+   "billing": {
+    "city": "Helsinki",
+    "postcode": "00120",
+    "street": "Fredrikinkatu 22"
+   },
+   "contacts": [
+    {
+     "email": "laura@aamukaste.example.fi",
+     "name": "Laura Nieminen",
+     "phone": "040 123 4567",
+     "role": "Yrittäjä"
+    }
+   ],
+   "discount": 0,
+   "einvoice": "",
+   "id": "c-b2tjtg2s",
+   "name": "Kahvila Aamukaste Oy",
+   "notes": "Haluaa aina vedoksen sähköpostilla ennen painoa.",
+   "operator": "",
+   "status": "Aktiivinen",
+   "terms": "14",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "ytunnus": "3012345-1"
+  },
+  "c-jecrpovk": {
+   "addresses": [
+    {
+     "city": "Espoo",
+     "label": "Toimisto",
+     "postcode": "02100",
+     "street": "Kauppakatu 9"
+    }
+   ],
+   "billing": {
+    "city": "Espoo",
+    "postcode": "02100",
+    "street": "Kauppakatu 9"
+   },
+   "contacts": [
+    {
+     "email": "anna.salonen@laskupro.example.fi",
+     "name": "Anna Salonen",
+     "phone": "040 567 8901",
+     "role": "Toimitusjohtaja"
+    }
+   ],
+   "discount": 10,
+   "einvoice": "003724567890",
+   "id": "c-jecrpovk",
+   "name": "Tilitoimisto Laskupro Oy",
+   "notes": "",
+   "operator": "E204503",
+   "status": "Aktiivinen",
+   "terms": "21",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "ytunnus": "2456789-0"
+  },
+  "c-lf9jsi3o": {
+   "addresses": [
+    {
+     "city": "Helsinki",
+     "label": "Varasto",
+     "postcode": "00380",
+     "street": "Kutomotie 6"
+    }
+   ],
+   "billing": {
+    "city": "Helsinki",
+    "postcode": "00120",
+    "street": "Bulevardi 7"
+   },
+   "contacts": [
+    {
+     "email": "emma@nordicevents.example.fi",
+     "name": "Emma Lindqvist",
+     "phone": "044 345 6789",
+     "role": "Tapahtumatuottaja"
+    }
+   ],
+   "discount": 0,
+   "einvoice": "",
+   "id": "c-lf9jsi3o",
+   "name": "Nordic Events Ab",
+   "notes": "",
+   "operator": "",
+   "status": "Prospekti",
+   "terms": "",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "ytunnus": "3145678-9"
+  },
+  "c-lq7axt3q": {
+   "addresses": [
+    {
+     "city": "Helsinki",
+     "label": "Toimisto",
+     "postcode": "00530",
+     "street": "Hämeentie 30"
+    }
+   ],
+   "billing": {
+    "city": "Helsinki",
+    "postcode": "00530",
+    "street": "Hämeentie 30"
+   },
+   "contacts": [
+    {
+     "email": "pekka@kirjapaja.example.fi",
+     "name": "Pekka Hämäläinen",
+     "phone": "045 456 7890",
+     "role": "Puheenjohtaja"
+    }
+   ],
+   "discount": 0,
+   "einvoice": "",
+   "id": "c-lq7axt3q",
+   "name": "Kirjapaja ry",
+   "notes": "",
+   "operator": "",
+   "status": "Aktiivinen",
+   "terms": "21",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "ytunnus": "1876543-2"
+  },
+  "c-udorxkb3": {
+   "addresses": [
+    {
+     "city": "Helsinki",
+     "label": "Pääkonttori",
+     "postcode": "00510",
+     "street": "Teollisuuskatu 14"
+    },
+    {
+     "city": "Helsinki",
+     "label": "Työmaa Jätkäsaari",
+     "postcode": "00220",
+     "street": "Välimerenkatu 5"
+    }
+   ],
+   "billing": {
+    "city": "Helsinki",
+    "postcode": "00511",
+    "street": "PL 120"
+   },
+   "contacts": [
+    {
+     "email": "mikko.virtanen@hkirakennus.example.fi",
+     "name": "Mikko Virtanen",
+     "phone": "050 234 5678",
+     "role": "Markkinointipäällikkö"
+    },
+    {
+     "email": "ostot@hkirakennus.example.fi",
+     "name": "Sanna Koskinen",
+     "phone": "09 555 1200",
+     "role": "Ostot"
+    }
+   ],
+   "discount": 5,
+   "einvoice": "003729876543",
+   "id": "c-udorxkb3",
+   "name": "Helsingin Rakennus Oy",
+   "notes": "",
+   "operator": "003723327487",
+   "status": "Aktiivinen",
+   "terms": "30",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "ytunnus": "2987654-3"
+  },
+  "mufbzpr6vavd7e": {
+   "addresses": [],
+   "billing": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "contacts": [],
+   "discount": 0,
+   "einvoice": "",
+   "id": "mufbzpr6vavd7e",
+   "name": "kwit",
+   "notes": "",
+   "operator": "",
+   "status": "Aktiivinen",
+   "terms": "",
+   "updatedAt": "2026-09-24T09:30:14.946Z",
+   "ytunnus": ""
+  },
+  "mufw2sr2cyn2oq": {
+   "addresses": [],
+   "billing": {
+    "city": "HKI",
+    "postcode": "69",
+    "street": "knorr"
+   },
+   "contacts": [
+    {
+     "email": "",
+     "name": "KWIIT",
+     "phone": "0400959880",
+     "role": ""
+    }
+   ],
+   "country": "Suomi",
+   "discount": 0,
+   "einvoice": "",
+   "id": "mufw2sr2cyn2oq",
+   "name": "KWIIT",
+   "notes": "",
+   "operator": "",
+   "status": "Aktiivinen",
+   "terms": "",
+   "updatedAt": "2026-09-24T18:53:01.050Z",
+   "vatId": "",
+   "ytunnus": ""
+  }
+ },
+ "offers": {
+  "mufva9pagu074i": {
+   "acceptedAt": "2026-09-24T18:33:30.164Z",
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Helsinki",
+    "billPostcode": "00511",
+    "billStreet": "PL 120",
+    "contactName": "Mikko Virtanen",
+    "country": "Suomi",
+    "einvoice": "003729876543",
+    "email": "mikko.virtanen@hkirakennus.example.fi",
+    "id": "c-udorxkb3",
+    "name": "Helsingin Rakennus Oy",
+    "operator": "003723327487",
+    "phone": "050 234 5678",
+    "terms": "30",
+    "vatId": "",
+    "ytunnus": "2987654-3"
+   },
+   "customerId": "c-udorxkb3",
+   "customerRef": "",
+   "date": "2026-09-24",
+   "deadline": "2026-09-25",
+   "delivery": {
+    "city": "Helsinki",
+    "postcode": "00510",
+    "street": "Teollisuuskatu 14"
+   },
+   "deliveryCost": "0",
+   "deliveryMethod": "Nouto",
+   "discount": "5",
+   "extras": [
+    {
+     "link": "",
+     "name": "Kohdelakkaus",
+     "price": 40,
+     "qty": "1",
+     "src": "mufva9paxy2f79:4",
+     "unit": "työ",
+     "unitPrice": "40"
+    },
+    {
+     "link": "",
+     "name": "Muuttuvat tiedot (per nimi)",
+     "price": 8,
+     "qty": "1",
+     "src": "mufva9paxy2f79:5",
+     "unit": "työ",
+     "unitPrice": "8"
+    },
+    {
+     "link": "mufva9paxy2f79",
+     "name": "Korttikotelo",
+     "price": 1500,
+     "qty": "1000",
+     "src": "mufva9paxy2f79:6",
+     "unit": "kpl",
+     "unitPrice": "1.5"
+    },
+    {
+     "name": "jupp",
+     "price": 20,
+     "qty": "1",
+     "unit": "työ",
+     "unitPrice": "20"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-24T18:33:30.164Z",
+     "text": "Asiakas hyväksyi tarjouksen"
+    },
+    {
+     "at": "2026-09-24T18:33:18.211Z",
+     "text": "Tarjous lähetetty asiakkaalle"
+    },
+    {
+     "at": "2026-09-24T18:33:06.016Z",
+     "text": "Tarjousta muokattu"
+    },
+    {
+     "at": "2026-09-24T18:32:22.612Z",
+     "text": "Tarjous tallennettu lähetettäväksi"
+    }
+   ],
+   "id": "mufva9pagu074i",
+   "instructions": "kyllä",
+   "items": [
+    {
+     "autoPrice": true,
+     "calc": {
+      "base": "",
+      "margin": "0",
+      "mat": "0",
+      "other": "0",
+      "prod": "0"
+     },
+     "colors": "4+4 CMYK",
+     "desc": "",
+     "format": "85 × 55 mm (vakio)",
+     "group": "Käyntikortit",
+     "iid": "mufva9paxy2f79",
+     "material": "350 g silk",
+     "optNote": "",
+     "opts": {
+      "0": "0",
+      "1": "0",
+      "2": "0",
+      "3": "0"
+     },
+     "price": "0.15",
+     "printInfo": "Suorat kulmat",
+     "product": "Käyntikortit",
+     "productId": "p01",
+     "qty": "1000",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "offer",
+   "no": "TAR-2026-0003",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "sentAt": "2026-09-24T18:33:18.211Z",
+   "startCost": "50",
+   "status": "Hyväksytty",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T18:33:30.164Z",
+   "vatMode": "fi",
+   "vatRate": 25.5
+  },
+  "mufw0rl2f7lbda": {
+   "acceptedAt": "2026-09-24T18:53:00.137Z",
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "HKI",
+    "billPostcode": "69",
+    "billStreet": "knorr",
+    "contactName": "KWIIT",
+    "country": "Suomi",
+    "einvoice": "",
+    "email": "",
+    "id": "mufw2sr2cyn2oq",
+    "name": "KWIIT",
+    "operator": "",
+    "phone": "0400959880",
+    "terms": "",
+    "ytunnus": ""
+   },
+   "customerId": "mufw2sr2cyn2oq",
+   "customerRef": "KNORR",
+   "date": "2026-09-24",
+   "deadline": "2026-09-26",
+   "delivery": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "deliveryCost": "69",
+   "deliveryMethod": "Nouto",
+   "discount": "0",
+   "extras": [
+    {
+     "link": "",
+     "name": "Kuumafoliointi (kulta/hopea)",
+     "price": 45,
+     "qty": "1",
+     "src": "mufw0rl2izs317:3",
+     "unit": "työ",
+     "unitPrice": "45"
+    },
+    {
+     "name": "nUSSU",
+     "price": 0,
+     "qty": "1",
+     "unit": "työ",
+     "unitPrice": "0"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-24T18:53:00.460Z",
+     "text": "Tilaus TIL-2026-0005 luotu"
+    },
+    {
+     "at": "2026-09-24T18:53:00.137Z",
+     "text": "Asiakas hyväksyi tarjouksen"
+    },
+    {
+     "at": "2026-09-24T18:52:50.489Z",
+     "text": "Tarjous lähetetty asiakkaalle"
+    },
+    {
+     "at": "2026-09-24T18:52:31.439Z",
+     "text": "Tarjous tallennettu lähetettäväksi"
+    }
+   ],
+   "id": "mufw0rl2f7lbda",
+   "instructions": "kyllä",
+   "items": [
+    {
+     "autoPrice": true,
+     "calc": {
+      "base": "",
+      "margin": "0",
+      "mat": "0",
+      "other": "0",
+      "prod": "0"
+     },
+     "colors": "4+4 CMYK",
+     "desc": "",
+     "format": "85 × 55 mm (vakio)",
+     "group": "Käyntikortit",
+     "iid": "mufw0rl2izs317",
+     "material": "350 g silk",
+     "optNote": "",
+     "opts": {},
+     "price": "0.121665",
+     "printInfo": "Suorat kulmat",
+     "product": "Käyntikortit",
+     "productId": "p01",
+     "qty": "2000",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "offer",
+   "no": "TAR-2026-0004",
+   "orderId": "mufw3fe40sbezg",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "sentAt": "2026-09-24T18:52:50.489Z",
+   "startCost": "50",
+   "status": "Hyväksytty",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T18:53:00.771Z",
+   "vatMode": "fi",
+   "vatRate": 25.5
+  },
+  "o-1cx068ag": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Helsinki",
+    "billPostcode": "00120",
+    "billStreet": "Bulevardi 7",
+    "contactName": "Emma Lindqvist",
+    "einvoice": "",
+    "email": "emma@nordicevents.example.fi",
+    "id": "c-lf9jsi3o",
+    "name": "Nordic Events Ab",
+    "operator": "",
+    "phone": "044 345 6789",
+    "terms": "",
+    "ytunnus": "3145678-9"
+   },
+   "customerId": "c-lf9jsi3o",
+   "customerRef": "",
+   "date": "2026-09-21",
+   "deadline": "2026-10-08",
+   "delivery": {
+    "city": "Helsinki",
+    "postcode": "00380",
+    "street": "Kutomotie 6"
+   },
+   "deliveryCost": "25",
+   "deliveryMethod": "Posti",
+   "discount": "0",
+   "extras": [
+    {
+     "link": "2hqk7osp",
+     "name": "Saumaus – Banderolli",
+     "price": 36,
+     "qty": "12",
+     "src": "2hqk7osp:1",
+     "unit": "m²",
+     "unitPrice": "3"
+    },
+    {
+     "link": "",
+     "name": "Purjerenkaat – Banderolli",
+     "price": 15,
+     "qty": "1",
+     "src": "2hqk7osp:2",
+     "unit": "työ",
+     "unitPrice": "15"
+    },
+    {
+     "link": "97plnqc1",
+     "name": "Laminointi – Suurkuvajuliste",
+     "price": 36,
+     "qty": "6",
+     "src": "97plnqc1:1",
+     "unit": "kpl",
+     "unitPrice": "6"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-22T09:00:00.000Z",
+     "text": "Tarjous lähetetty asiakkaalle"
+    },
+    {
+     "at": "2026-09-21T09:00:00.000Z",
+     "text": "Tarjous tallennettu lähetettäväksi"
+    }
+   ],
+   "id": "o-1cx068ag",
+   "instructions": "Syysmessujen banderollit, 3 kpl à 4 m². Aineistot tulevat valmiina.",
+   "items": [
+    {
+     "colors": "4+0",
+     "desc": "",
+     "format": "4000×1000 mm",
+     "group": "Banderollit",
+     "iid": "2hqk7osp",
+     "material": "PVC-banderolli 510 g",
+     "price": "28",
+     "printInfo": "",
+     "product": "Banderolli 4×1 m",
+     "productId": "p07",
+     "qty": "12",
+     "unit": "m²"
+    },
+    {
+     "colors": "4+0",
+     "desc": "",
+     "format": "700×1000 mm",
+     "group": "Suurkuvatulosteet",
+     "iid": "97plnqc1",
+     "material": "200 g juliste",
+     "price": "18",
+     "printInfo": "",
+     "product": "Suurkuvajuliste 70×100",
+     "productId": "p05",
+     "qty": "6",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "offer",
+   "no": "TAR-2026-0001",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "sentAt": "2026-09-22T09:00:00.000Z",
+   "startCost": "50",
+   "status": "Lähetetty",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "vatRate": 25.5
+  },
+  "o-4fjy6mym": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Espoo",
+    "billPostcode": "02100",
+    "billStreet": "Kauppakatu 9",
+    "contactName": "Anna Salonen",
+    "einvoice": "003724567890",
+    "email": "anna.salonen@laskupro.example.fi",
+    "id": "c-jecrpovk",
+    "name": "Tilitoimisto Laskupro Oy",
+    "operator": "E204503",
+    "phone": "040 567 8901",
+    "terms": "21",
+    "ytunnus": "2456789-0"
+   },
+   "customerId": "c-jecrpovk",
+   "customerRef": "",
+   "date": "2026-09-24",
+   "deadline": "2026-10-15",
+   "delivery": {
+    "city": "Espoo",
+    "postcode": "02100",
+    "street": "Kauppakatu 9"
+   },
+   "deliveryCost": "18",
+   "deliveryMethod": "Posti",
+   "discount": "10",
+   "extras": [
+    {
+     "link": "3hfckurk",
+     "name": "Osoitetulostus – Kirjekuori",
+     "price": 100,
+     "qty": "2000",
+     "src": "3hfckurk:1",
+     "unit": "kpl",
+     "unitPrice": "0.05"
+    },
+    {
+     "link": "ca22xdx9",
+     "name": "Numerointi – Lomake",
+     "price": 15,
+     "qty": "500",
+     "src": "ca22xdx9:1",
+     "unit": "kpl",
+     "unitPrice": "0.03"
+    },
+    {
+     "link": "",
+     "name": "Taitto / asettelu – Kirjelomake",
+     "price": 35,
+     "qty": "1",
+     "src": "ioq0uktq:0",
+     "unit": "työ",
+     "unitPrice": "35"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-24T09:00:00.000Z",
+     "text": "Tarjous tallennettu lähetettäväksi"
+    }
+   ],
+   "id": "o-4fjy6mym",
+   "instructions": "Uusi graafinen ilme, logo vektorina.",
+   "items": [
+    {
+     "colors": "1+0",
+     "desc": "",
+     "format": "C5 ikkuna vasen",
+     "group": "Kirjekuoret",
+     "iid": "3hfckurk",
+     "material": "90 g valkoinen",
+     "price": "0.18",
+     "printInfo": "",
+     "product": "Ikkunakirjekuori C5",
+     "productId": "p11",
+     "qty": "2000",
+     "unit": "kpl"
+    },
+    {
+     "colors": "4+0",
+     "desc": "",
+     "format": "A4",
+     "group": "Kirjelomakkeet",
+     "iid": "ioq0uktq",
+     "material": "100 g offset",
+     "price": "0.1",
+     "printInfo": "",
+     "product": "Kirjelomake A4",
+     "productId": "p10",
+     "qty": "1000",
+     "unit": "kpl"
+    },
+    {
+     "colors": "1+1",
+     "desc": "",
+     "format": "A4",
+     "group": "Lomakkeet",
+     "iid": "ca22xdx9",
+     "material": "80 g",
+     "price": "0.2",
+     "printInfo": "",
+     "product": "Asiakasohjelomake",
+     "productId": "p12",
+     "qty": "500",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "offer",
+   "no": "TAR-2026-0002",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "startCost": "50",
+   "status": "Valmis lähetettäväksi",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "vatRate": 25.5
+  }
+ },
+ "orders": {
+  "mufbxsqnlcnmcu": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "",
+    "billPostcode": "",
+    "billStreet": "",
+    "contactName": "",
+    "einvoice": "",
+    "email": "",
+    "id": "mufbzpr6vavd7e",
+    "name": "kwit",
+    "operator": "",
+    "phone": "",
+    "terms": "",
+    "ytunnus": ""
+   },
+   "customerId": "mufbzpr6vavd7e",
+   "customerRef": "",
+   "date": "2026-09-24",
+   "deadline": "2026-09-24",
+   "delivery": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "deliveryCost": "0",
+   "deliveryMethod": "Nouto",
+   "discount": "0",
+   "extras": [],
+   "finishedAt": "2026-09-24T09:31:09.881Z",
+   "history": [
+    {
+     "at": "2026-09-24T09:31:22.307Z",
+     "text": "Lasku hyväksytty, työ arkistoitu"
+    },
+    {
+     "at": "2026-09-24T09:31:17.482Z",
+     "text": "Siirretty laskun tarkastukseen"
+    },
+    {
+     "at": "2026-09-24T09:31:09.881Z",
+     "text": "Tuotanto kuitattu valmiiksi"
+    },
+    {
+     "at": "2026-09-24T09:30:36.838Z",
+     "text": "Tuotanto aloitettu"
+    },
+    {
+     "at": "2026-09-24T09:30:15.328Z",
+     "text": "Tilaus luotu (Vahvistettu)"
+    }
+   ],
+   "id": "mufbxsqnlcnmcu",
+   "instructions": "",
+   "invoicedAt": "2026-09-24T09:31:22.307Z",
+   "items": [
+    {
+     "colors": "",
+     "desc": "kyllä",
+     "format": "",
+     "group": "Käyntikortit",
+     "material": "",
+     "price": "10",
+     "printInfo": "",
+     "product": "Käyntikortit",
+     "productId": "p01",
+     "qty": "1",
+     "unit": "kpl"
+    },
+    {
+     "colors": "",
+     "desc": "",
+     "format": "",
+     "group": "Tarrat",
+     "material": "",
+     "price": "0.15",
+     "printInfo": "",
+     "product": "Tarrat",
+     "productId": "p08",
+     "qty": "1",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "order",
+   "no": "TIL-2026-0001",
+   "prodNotes": "",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "stage": "Valmis",
+   "startCost": "50",
+   "status": "Laskutettu",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T09:31:22.307Z",
+   "vatRate": 25.5
+  },
+  "mufw3fe40sbezg": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "HKI",
+    "billPostcode": "69",
+    "billStreet": "knorr",
+    "contactName": "KWIIT",
+    "country": "Suomi",
+    "einvoice": "",
+    "email": "",
+    "id": "mufw2sr2cyn2oq",
+    "name": "KWIIT",
+    "operator": "",
+    "phone": "0400959880",
+    "terms": "",
+    "ytunnus": ""
+   },
+   "customerId": "mufw2sr2cyn2oq",
+   "customerRef": "KNORR",
+   "date": "2026-09-24",
+   "deadline": "2026-09-26",
+   "delivery": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "deliveryCost": "69",
+   "deliveryMethod": "Nouto",
+   "discount": "0",
+   "extras": [
+    {
+     "link": "",
+     "name": "Kuumafoliointi (kulta/hopea)",
+     "price": 45,
+     "qty": "1",
+     "src": "mufw0rl2izs317:3",
+     "unit": "työ",
+     "unitPrice": "45"
+    },
+    {
+     "name": "nUSSU",
+     "price": 0,
+     "qty": "1",
+     "unit": "työ",
+     "unitPrice": "0"
+    }
+   ],
+   "finishedAt": "2026-09-24T18:53:27.134Z",
+   "history": [
+    {
+     "at": "2026-09-24T18:53:44.337Z",
+     "text": "Lasku hyväksytty, työ arkistoitu"
+    },
+    {
+     "at": "2026-09-24T18:53:37.550Z",
+     "text": "Siirretty laskun tarkastukseen"
+    },
+    {
+     "at": "2026-09-24T18:53:27.134Z",
+     "text": "Tuotanto kuitattu valmiiksi"
+    },
+    {
+     "at": "2026-09-24T18:53:00.460Z",
+     "text": "Tuotanto aloitettu"
+    },
+    {
+     "at": "2026-09-24T18:53:00.460Z",
+     "text": "Tilaus luotu tarjouksesta TAR-2026-0004"
+    }
+   ],
+   "id": "mufw3fe40sbezg",
+   "instructions": "kyllä",
+   "invoicedAt": "2026-09-24T18:53:44.337Z",
+   "items": [
+    {
+     "autoPrice": true,
+     "calc": {
+      "base": "",
+      "margin": "0",
+      "mat": "0",
+      "other": "0",
+      "prod": "0"
+     },
+     "colors": "4+4 CMYK",
+     "desc": "",
+     "format": "85 × 55 mm (vakio)",
+     "group": "Käyntikortit",
+     "iid": "mufw0rl2izs317",
+     "material": "350 g silk",
+     "optNote": "",
+     "opts": {},
+     "price": "0.121665",
+     "printInfo": "Suorat kulmat",
+     "product": "Käyntikortit",
+     "productId": "p01",
+     "qty": "2000",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "order",
+   "no": "TIL-2026-0005",
+   "offerId": "mufw0rl2f7lbda",
+   "offerNo": "TAR-2026-0004",
+   "prodNotes": "",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "stage": "Valmis",
+   "startCost": "50",
+   "status": "Laskutettu",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T18:53:44.337Z",
+   "vatMode": "fi",
+   "vatRate": 25.5
+  },
+  "t-19m8fqw8": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Helsinki",
+    "billPostcode": "00120",
+    "billStreet": "Fredrikinkatu 22",
+    "contactName": "Laura Nieminen",
+    "einvoice": "",
+    "email": "laura@aamukaste.example.fi",
+    "id": "c-b2tjtg2s",
+    "name": "Kahvila Aamukaste Oy",
+    "operator": "",
+    "phone": "040 123 4567",
+    "terms": "14",
+    "ytunnus": "3012345-1"
+   },
+   "customerId": "c-b2tjtg2s",
+   "customerRef": "",
+   "date": "2026-09-23",
+   "deadline": "2026-09-30",
+   "delivery": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "deliveryCost": "0",
+   "deliveryMethod": "Nouto",
+   "discount": "0",
+   "extras": [
+    {
+     "link": "",
+     "name": "Taitto / asettelu – Flyerit",
+     "price": 45,
+     "qty": "1",
+     "src": "b2kkuyfu:0",
+     "unit": "työ",
+     "unitPrice": "45"
+    },
+    {
+     "link": "k6dghe6d",
+     "name": "Laminointi – Käyntikortit",
+     "price": 15,
+     "qty": "500",
+     "src": "k6dghe6d:1",
+     "unit": "kpl",
+     "unitPrice": "0.03"
+    }
+   ],
+   "finishedAt": "2026-09-24T18:35:57.569Z",
+   "history": [
+    {
+     "at": "2026-09-24T18:36:22.547Z",
+     "text": "Lasku hyväksytty, työ arkistoitu"
+    },
+    {
+     "at": "2026-09-24T18:36:13.827Z",
+     "text": "Siirretty laskun tarkastukseen"
+    },
+    {
+     "at": "2026-09-24T18:35:57.569Z",
+     "text": "Tuotanto kuitattu valmiiksi"
+    },
+    {
+     "at": "2026-09-24T18:35:45.751Z",
+     "text": "Tuotanto aloitettu"
+    },
+    {
+     "at": "2026-09-23T09:00:00.000Z",
+     "text": "Tilaus luotu (Vahvistettu)"
+    }
+   ],
+   "id": "t-19m8fqw8",
+   "instructions": "Logo asiakkaan toimittamasta PDF:stä. Vedos sähköpostilla ennen painoa.",
+   "invoicedAt": "2026-09-24T18:36:22.547Z",
+   "items": [
+    {
+     "colors": "4+4",
+     "desc": "",
+     "format": "85×55 mm",
+     "group": "Käyntikortit",
+     "iid": "k6dghe6d",
+     "material": "350 g silk",
+     "price": "0.09",
+     "printInfo": "",
+     "product": "Käyntikortit 85×55",
+     "productId": "p01",
+     "qty": "500",
+     "unit": "kpl"
+    },
+    {
+     "colors": "4+4",
+     "desc": "",
+     "format": "A5",
+     "group": "Flyerit",
+     "iid": "b2kkuyfu",
+     "material": "170 g silk",
+     "price": "0.12",
+     "printInfo": "",
+     "product": "Flyerit A5 – syyskuun menu",
+     "productId": "p02",
+     "qty": "1000",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "order",
+   "no": "TIL-2026-0002",
+   "prodNotes": "",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "stage": "Valmis",
+   "startCost": "50",
+   "status": "Laskutettu",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T18:36:22.547Z",
+   "vatMode": "fi",
+   "vatRate": 25.5
+  },
+  "t-2kkyk1qs": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Helsinki",
+    "billPostcode": "00530",
+    "billStreet": "Hämeentie 30",
+    "contactName": "Pekka Hämäläinen",
+    "einvoice": "",
+    "email": "pekka@kirjapaja.example.fi",
+    "id": "c-lq7axt3q",
+    "name": "Kirjapaja ry",
+    "operator": "",
+    "phone": "045 456 7890",
+    "terms": "21",
+    "ytunnus": "1876543-2"
+   },
+   "customerId": "c-lq7axt3q",
+   "customerRef": "",
+   "date": "2026-09-04",
+   "deadline": "2026-09-16",
+   "delivery": {
+    "city": "",
+    "postcode": "",
+    "street": ""
+   },
+   "deliveryCost": "0",
+   "deliveryMethod": "Nouto",
+   "discount": "0",
+   "extras": [
+    {
+     "link": "",
+     "name": "Taitto / asettelu",
+     "price": 150,
+     "qty": "1",
+     "src": "849upopi:0",
+     "unit": "työ",
+     "unitPrice": "150"
+    },
+    {
+     "link": "849upopi",
+     "name": "Liimasidonta",
+     "price": 375,
+     "qty": "150",
+     "src": "849upopi:1",
+     "unit": "kpl",
+     "unitPrice": "2.5"
+    },
+    {
+     "link": "849upopi",
+     "name": "Kansilaminointi",
+     "price": 45,
+     "qty": "150",
+     "src": "849upopi:2",
+     "unit": "kpl",
+     "unitPrice": "0.3"
+    }
+   ],
+   "finishedAt": "2026-09-15T09:00:00.000Z",
+   "history": [
+    {
+     "at": "2026-09-16T09:00:00.000Z",
+     "text": "Lasku hyväksytty, työ arkistoitu"
+    },
+    {
+     "at": "2026-09-15T09:00:00.000Z",
+     "text": "Siirretty laskun tarkastukseen"
+    },
+    {
+     "at": "2026-09-15T09:00:00.000Z",
+     "text": "Tuotanto kuitattu valmiiksi"
+    },
+    {
+     "at": "2026-09-06T09:00:00.000Z",
+     "text": "Tuotanto aloitettu"
+    },
+    {
+     "at": "2026-09-04T09:00:00.000Z",
+     "text": "Tilaus luotu (Vahvistettu)"
+    }
+   ],
+   "id": "t-2kkyk1qs",
+   "instructions": "Taitto asiakkaan Word-tiedostosta.",
+   "invoicedAt": "2026-09-16T09:00:00.000Z",
+   "items": [
+    {
+     "colors": "Sisus 1+1, kansi 4+0",
+     "desc": "",
+     "format": "A5",
+     "group": "Kirjat",
+     "iid": "849upopi",
+     "material": "Sisus 90 g, kansi 300 g",
+     "price": "4.5",
+     "printInfo": "Liimasidonta",
+     "product": "Jäsenkirja 2026, 120 s.",
+     "productId": "p14",
+     "qty": "150",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "order",
+   "no": "TIL-2026-0004",
+   "payMethod": "Kortti",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "stage": "Valmis",
+   "startCost": "120",
+   "status": "Laskutettu",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "vatRate": 25.5
+  },
+  "t-mioiz7zn": {
+   "attachments": [],
+   "billingFee": "6",
+   "customer": {
+    "billCity": "Helsinki",
+    "billPostcode": "00511",
+    "billStreet": "PL 120",
+    "contactName": "Mikko Virtanen",
+    "einvoice": "003729876543",
+    "email": "mikko.virtanen@hkirakennus.example.fi",
+    "id": "c-udorxkb3",
+    "name": "Helsingin Rakennus Oy",
+    "operator": "003723327487",
+    "phone": "050 234 5678",
+    "terms": "30",
+    "ytunnus": "2987654-3"
+   },
+   "customerId": "c-udorxkb3",
+   "customerRef": "Jätkäsaari kohde 214",
+   "date": "2026-09-19",
+   "deadline": "2026-09-27",
+   "delivery": {
+    "city": "Helsinki",
+    "postcode": "00220",
+    "street": "Välimerenkatu 5"
+   },
+   "deliveryCost": "35",
+   "deliveryMethod": "Lähetti",
+   "discount": "5",
+   "extras": [
+    {
+     "link": "",
+     "name": "Asennus – Työmaakyltti",
+     "price": 60,
+     "qty": "1",
+     "src": "stizhpph:1",
+     "unit": "työ",
+     "unitPrice": "60"
+    },
+    {
+     "link": "stizhpph",
+     "name": "Kiinnitystarvikkeet – Työmaakyltti",
+     "price": 32,
+     "qty": "4",
+     "src": "stizhpph:2",
+     "unit": "kpl",
+     "unitPrice": "8"
+    },
+    {
+     "link": "iqt5u83y",
+     "name": "Kantolaukku – Roll-up",
+     "price": 30,
+     "qty": "2",
+     "src": "iqt5u83y:2",
+     "unit": "kpl",
+     "unitPrice": "15"
+    }
+   ],
+   "history": [
+    {
+     "at": "2026-09-22T09:00:00.000Z",
+     "text": "Tuotantovaihe: Käynnissä"
+    },
+    {
+     "at": "2026-09-20T09:00:00.000Z",
+     "text": "Tuotanto aloitettu"
+    },
+    {
+     "at": "2026-09-19T09:00:00.000Z",
+     "text": "Tilaus luotu (Vahvistettu)"
+    }
+   ],
+   "id": "t-mioiz7zn",
+   "instructions": "Kyltit asennetaan työmaan aitaan. Roll-upit toimitetaan pääkonttoriin.",
+   "items": [
+    {
+     "colors": "4+0",
+     "desc": "",
+     "format": "1200×800 mm",
+     "group": "Kyltit ja taulut",
+     "iid": "stizhpph",
+     "material": "3 mm alumiinikomposiitti",
+     "price": "45",
+     "printInfo": "",
+     "product": "Työmaakyltti 1200×800",
+     "productId": "p09",
+     "qty": "4",
+     "unit": "kpl"
+    },
+    {
+     "colors": "4+0",
+     "desc": "",
+     "format": "850×2000 mm",
+     "group": "Roll-upit",
+     "iid": "iqt5u83y",
+     "material": "Blockout-kalvo",
+     "price": "95",
+     "printInfo": "",
+     "product": "Roll-up 850×2000",
+     "productId": "p06",
+     "qty": "2",
+     "unit": "kpl"
+    }
+   ],
+   "kind": "order",
+   "no": "TIL-2026-0003",
+   "prodNotes": "Aineisto tarkistettu, värit ok.",
+   "productionMethod": "Copy-Set",
+   "reference": "",
+   "stage": "Käynnissä",
+   "startCost": "50",
+   "status": "Tuotannossa",
+   "supplierId": "",
+   "updatedAt": "2026-09-24T09:00:00.000Z",
+   "vatRate": 25.5
+  }
+ },
+ "products": {
+  "p01": {
+   "baseCost": 0.5,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 35
+    },
+    {
+     "name": "Matta- tai kiiltolaminointi",
+     "per": "yks",
+     "price": 0.03
+    },
+    {
+     "name": "Soft touch -laminointi",
+     "per": "yks",
+     "price": 0.06
+    },
+    {
+     "name": "Kuumafoliointi (kulta/hopea)",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Kohdelakkaus",
+     "per": "työ",
+     "price": 40
+    },
+    {
+     "name": "Muuttuvat tiedot (per nimi)",
+     "per": "työ",
+     "price": 8
+    },
+    {
+     "name": "Korttikotelo",
+     "per": "yks",
+     "price": 1.5
+    }
+   ],
+   "format": "",
+   "id": "p01",
+   "material": "",
+   "name": "Käyntikortit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "85 × 55 mm (vakio)",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "90 × 50 mm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "85 × 40 mm (kapea)",
+       "mode": "kerroin",
+       "value": 0.95
+      },
+      {
+       "label": "55 × 55 mm (neliö)",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "65 × 65 mm (neliö)",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "Taitettu 85 × 55 mm",
+       "mode": "kerroin",
+       "value": 1.9
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "350 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "350 g matta",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "300 g pinnoittamaton",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "400 g soft touch",
+       "mode": "kerroin",
+       "value": 1.5
+      },
+      {
+       "label": "300 g helmiäiskartonki",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "350 g kierrätyskartonki",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "600 g kolmikerroskartonki",
+       "mode": "kerroin",
+       "value": 2.4
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 0.7
+      },
+      {
+       "label": "1+1",
+       "mode": "kerroin",
+       "value": 0.65
+      },
+      {
+       "label": "1+0",
+       "mode": "kerroin",
+       "value": 0.55
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    },
+    {
+     "choices": [
+      {
+       "label": "Suorat kulmat",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Pyöristetyt kulmat (6 mm)",
+       "mode": "yks",
+       "value": 0.02
+      }
+     ],
+     "field": "printInfo",
+     "name": "Kulmat"
+    }
+   ],
+   "prices": [
+    {
+     "price": 50,
+     "qty": 100
+    },
+    {
+     "price": 62,
+     "qty": 200
+    },
+    {
+     "price": 74,
+     "qty": 300
+    },
+    {
+     "price": 86,
+     "qty": 400
+    },
+    {
+     "price": 96,
+     "qty": 500
+    },
+    {
+     "price": 150,
+     "qty": 1000
+    },
+    {
+     "price": 290,
+     "qty": 2500
+    },
+    {
+     "price": 480,
+     "qty": 5000
+    }
+   ],
+   "sort": 1,
+   "startCost": 40,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p02": {
+   "baseCost": 0.5,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 0.05
+    },
+    {
+     "name": "Rei'itys",
+     "per": "yks",
+     "price": 0.01
+    },
+    {
+     "name": "Pikatoimitus",
+     "per": "työ",
+     "price": 25
+    }
+   ],
+   "format": "",
+   "id": "p02",
+   "material": "",
+   "name": "Flyerit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A5 148 × 210 mm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A6 105 × 148 mm",
+       "mode": "kerroin",
+       "value": 0.85
+      },
+      {
+       "label": "A4 210 × 297 mm",
+       "mode": "kerroin",
+       "value": 1.35
+      },
+      {
+       "label": "DL 99 × 210 mm",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "A3 297 × 420 mm",
+       "mode": "kerroin",
+       "value": 2.6
+      },
+      {
+       "label": "148 × 148 mm (neliö)",
+       "mode": "kerroin",
+       "value": 0.95
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "170 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "130 g silk",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "250 g silk",
+       "mode": "kerroin",
+       "value": 1.25
+      },
+      {
+       "label": "300 g kartonki",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "120 g offset",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "160 g kierrätys",
+       "mode": "kerroin",
+       "value": 1.05
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 0.85
+      },
+      {
+       "label": "1+1",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "1+0",
+       "mode": "kerroin",
+       "value": 0.5
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 50,
+     "qty": 100
+    },
+    {
+     "price": 75,
+     "qty": 200
+    },
+    {
+     "price": 91,
+     "qty": 300
+    },
+    {
+     "price": 100,
+     "qty": 400
+    },
+    {
+     "price": 115,
+     "qty": 500
+    },
+    {
+     "price": 155,
+     "qty": 1000
+    },
+    {
+     "price": 290,
+     "qty": 2500
+    },
+    {
+     "price": 480,
+     "qty": 5000
+    }
+   ],
+   "sort": 2,
+   "startCost": 50,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p03": {
+   "baseCost": 0.7,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 60
+    },
+    {
+     "name": "Nuuttaus",
+     "per": "yks",
+     "price": 0.03
+    },
+    {
+     "name": "Kansilaminointi",
+     "per": "yks",
+     "price": 0.08
+    },
+    {
+     "name": "Kohdelakkaus",
+     "per": "työ",
+     "price": 60
+    },
+    {
+     "name": "Pikatoimitus",
+     "per": "työ",
+     "price": 30
+    }
+   ],
+   "format": "",
+   "id": "p03",
+   "material": "",
+   "name": "Esitteet",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A5 (A4 auki), 4 s.",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A4 (A3 auki), 4 s.",
+       "mode": "kerroin",
+       "value": 1.9
+      },
+      {
+       "label": "DL 99 × 210 (A4 auki), 6 s.",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A6 (A5 auki), 4 s.",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "B5 176 × 250, 4 s.",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "210 × 210 neliö, 4 s.",
+       "mode": "kerroin",
+       "value": 1.7
+      },
+      {
+       "label": "A5, 6 s.",
+       "mode": "kerroin",
+       "value": 1.5
+      }
+     ],
+     "field": "format",
+     "name": "Koko (taitettuna)"
+    },
+    {
+     "choices": [
+      {
+       "label": "Puolitus",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Haitaritaitto (Z)",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "Rulla- / sisääntaitto (C)",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "Ikkunataitto",
+       "mode": "kerroin",
+       "value": 1.15
+      }
+     ],
+     "field": "printInfo",
+     "name": "Taitto"
+    },
+    {
+     "choices": [
+      {
+       "label": "170 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "170 g matta",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "130 g silk",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "250 g silk",
+       "mode": "kerroin",
+       "value": 1.25
+      },
+      {
+       "label": "160 g kierrätys",
+       "mode": "kerroin",
+       "value": 1.05
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "1+1",
+       "mode": "kerroin",
+       "value": 0.6
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 70,
+     "qty": 100
+    },
+    {
+     "price": 90,
+     "qty": 200
+    },
+    {
+     "price": 105,
+     "qty": 300
+    },
+    {
+     "price": 125,
+     "qty": 400
+    },
+    {
+     "price": 155,
+     "qty": 500
+    },
+    {
+     "price": 240,
+     "qty": 1000
+    },
+    {
+     "price": 480,
+     "qty": 2500
+    },
+    {
+     "price": 820,
+     "qty": 5000
+    }
+   ],
+   "sort": 3,
+   "startCost": 60,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p04": {
+   "baseCost": 15,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 35
+    },
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 1.5
+    },
+    {
+     "name": "Rullaus ja pakkaus",
+     "per": "työ",
+     "price": 5
+    }
+   ],
+   "format": "",
+   "id": "p04",
+   "material": "",
+   "name": "Julisteet A3",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A3 297 × 420 mm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "SRA3 320 × 450 mm",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "A4 210 × 297 mm",
+       "mode": "kerroin",
+       "value": 0.55
+      },
+      {
+       "label": "A2 420 × 594 mm",
+       "mode": "kerroin",
+       "value": 2.4
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "170 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "200 g juliste matta",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "250 g silk",
+       "mode": "kerroin",
+       "value": 1.3
+      },
+      {
+       "label": "135 g blueback",
+       "mode": "kerroin",
+       "value": 1.1
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1.7
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 15,
+     "qty": 1
+    },
+    {
+     "price": 55,
+     "qty": 5
+    },
+    {
+     "price": 95,
+     "qty": 10
+    },
+    {
+     "price": 200,
+     "qty": 25
+    },
+    {
+     "price": 350,
+     "qty": 50
+    },
+    {
+     "price": 600,
+     "qty": 100
+    }
+   ],
+   "sort": 4,
+   "startCost": 30,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p05": {
+   "baseCost": 35,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 6
+    },
+    {
+     "name": "Pohjustus levylle",
+     "per": "yks",
+     "price": 12
+    },
+    {
+     "name": "Kiilapuukehys (canvas)",
+     "per": "yks",
+     "price": 25
+    },
+    {
+     "name": "Rei'itys / ripustus",
+     "per": "yks",
+     "price": 3
+    }
+   ],
+   "format": "",
+   "id": "p05",
+   "material": "",
+   "name": "Suurkuvatulosteet",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A1 594 × 841 mm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A2 420 × 594 mm",
+       "mode": "kerroin",
+       "value": 0.55
+      },
+      {
+       "label": "A0 841 × 1189 mm",
+       "mode": "kerroin",
+       "value": 1.9
+      },
+      {
+       "label": "50 × 70 cm",
+       "mode": "kerroin",
+       "value": 0.75
+      },
+      {
+       "label": "70 × 100 cm",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "100 × 140 cm",
+       "mode": "kerroin",
+       "value": 2.8
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "200 g julistepaperi",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Satiinivalokuvapaperi",
+       "mode": "kerroin",
+       "value": 1.3
+      },
+      {
+       "label": "Blueback 135 g",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "Canvas-kangas",
+       "mode": "kerroin",
+       "value": 2.5
+      },
+      {
+       "label": "Tarrakalvo",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "5 mm kapa-levy",
+       "mode": "kerroin",
+       "value": 2.2
+      },
+      {
+       "label": "3 mm PVC-levy",
+       "mode": "kerroin",
+       "value": 2.2
+      }
+     ],
+     "field": "material",
+     "name": "Materiaali"
+    },
+    {
+     "choices": [
+      {
+       "label": "Sisäkäyttö",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Ulkokäyttö (UV-kestävä)",
+       "mode": "kerroin",
+       "value": 1.2
+      }
+     ],
+     "field": "printInfo",
+     "name": "Käyttö"
+    }
+   ],
+   "prices": [
+    {
+     "price": 35,
+     "qty": 1
+    },
+    {
+     "price": 95,
+     "qty": 3
+    },
+    {
+     "price": 150,
+     "qty": 5
+    },
+    {
+     "price": 280,
+     "qty": 10
+    },
+    {
+     "price": 625,
+     "qty": 25
+    }
+   ],
+   "sort": 5,
+   "startCost": 20,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p06": {
+   "baseCost": 99,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Vaihtoprintti",
+     "per": "yks",
+     "price": 55
+    },
+    {
+     "name": "Kohdevalo",
+     "per": "yks",
+     "price": 35
+    },
+    {
+     "name": "Kova kuljetuslaukku",
+     "per": "yks",
+     "price": 30
+    }
+   ],
+   "format": "",
+   "id": "p06",
+   "material": "",
+   "name": "Roll-upit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "85 × 200 cm (suosituin)",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "60 × 200 cm",
+       "mode": "kerroin",
+       "value": 0.85
+      },
+      {
+       "label": "100 × 200 cm",
+       "mode": "kerroin",
+       "value": 1.26
+      },
+      {
+       "label": "120 × 200 cm",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "150 × 200 cm",
+       "mode": "kerroin",
+       "value": 2
+      },
+      {
+       "label": "Pöytäroll-up A3",
+       "mode": "kerroin",
+       "value": 0.45
+      },
+      {
+       "label": "Pöytäroll-up A4",
+       "mode": "kerroin",
+       "value": 0.35
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "Classic",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Pro",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "Premium, teleskooppi",
+       "mode": "kerroin",
+       "value": 1.5
+      },
+      {
+       "label": "Ulkokäyttö, kaksipuolinen",
+       "mode": "kerroin",
+       "value": 3.1
+      }
+     ],
+     "field": "printInfo",
+     "name": "Teline"
+    },
+    {
+     "choices": [
+      {
+       "label": "Blockout-kalvo",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Polyesterikangas",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "PVC-vapaa polyesteri",
+       "mode": "kerroin",
+       "value": 1.1
+      }
+     ],
+     "field": "material",
+     "name": "Materiaali"
+    }
+   ],
+   "prices": [
+    {
+     "price": 99,
+     "qty": 1
+    },
+    {
+     "price": 186,
+     "qty": 2
+    },
+    {
+     "price": 279,
+     "qty": 3
+    },
+    {
+     "price": 450,
+     "qty": 5
+    },
+    {
+     "price": 850,
+     "qty": 10
+    }
+   ],
+   "sort": 6,
+   "startCost": 0,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p07": {
+   "baseCost": 39,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Purjerenkaat tiheämmin (50 cm välein)",
+     "per": "yks",
+     "price": 2
+    },
+    {
+     "name": "Tunnelointi / putkitasku",
+     "per": "yks",
+     "price": 4
+    },
+    {
+     "name": "Kiinnitysnarut",
+     "per": "työ",
+     "price": 8
+    },
+    {
+     "name": "B1-paloluokitus",
+     "per": "yks",
+     "price": 5
+    }
+   ],
+   "format": "",
+   "id": "p07",
+   "material": "",
+   "name": "Banderollit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "PVC 510 g",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Reikävinyyli (mesh)",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "PVC-vapaa polyesteri",
+       "mode": "kerroin",
+       "value": 1.15
+      },
+      {
+       "label": "Kangas 215 g",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "B1-paloluokiteltu",
+       "mode": "kerroin",
+       "value": 1.3
+      }
+     ],
+     "field": "material",
+     "name": "Materiaali"
+    },
+    {
+     "choices": [
+      {
+       "label": "Yksipuolinen",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Kaksipuolinen (blockout)",
+       "mode": "kerroin",
+       "value": 1.8
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    },
+    {
+     "choices": [
+      {
+       "label": "Ulkokäyttö",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Sisäkäyttö",
+       "mode": "kerroin",
+       "value": 0.95
+      }
+     ],
+     "field": "printInfo",
+     "name": "Käyttö"
+    }
+   ],
+   "prices": [
+    {
+     "price": 39,
+     "qty": 1
+    },
+    {
+     "price": 70,
+     "qty": 2
+    },
+    {
+     "price": 150,
+     "qty": 5
+    },
+    {
+     "price": 260,
+     "qty": 10
+    },
+    {
+     "price": 460,
+     "qty": 20
+    },
+    {
+     "price": 1000,
+     "qty": 50
+    }
+   ],
+   "sort": 7,
+   "startCost": 20,
+   "tiers": [],
+   "unit": "m²"
+  },
+  "p08": {
+   "baseCost": 0.45,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 35
+    },
+    {
+     "name": "Stanssityökalu / muotoonleikkaus",
+     "per": "työ",
+     "price": 40
+    },
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 0.03
+    },
+    {
+     "name": "Siirtoteippaus",
+     "per": "yks",
+     "price": 0.05
+    }
+   ],
+   "format": "",
+   "id": "p08",
+   "material": "",
+   "name": "Tarrat",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "enint. 7,5 × 7,5 cm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "enint. 5 × 5 cm",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "enint. 10 × 10 cm",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "enint. 15 × 10 cm",
+       "mode": "kerroin",
+       "value": 2.2
+      },
+      {
+       "label": "A6",
+       "mode": "kerroin",
+       "value": 2.4
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 4
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "Valkoinen paperi",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Vedenkestävä paperi",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "Valkoinen vinyyli",
+       "mode": "kerroin",
+       "value": 1.5
+      },
+      {
+       "label": "Läpinäkyvä vinyyli",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "Kultapaperi",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "Holografinen kalvo",
+       "mode": "kerroin",
+       "value": 2.2
+      }
+     ],
+     "field": "material",
+     "name": "Materiaali"
+    },
+    {
+     "choices": [
+      {
+       "label": "Suorakaide",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Pyöreä / soikea",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Muotoonleikattu",
+       "mode": "kerroin",
+       "value": 1.2
+      }
+     ],
+     "field": "printInfo",
+     "name": "Muoto"
+    },
+    {
+     "choices": [
+      {
+       "label": "Yksittäiset",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Tarra-arkki",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Rullalla",
+       "mode": "kerroin",
+       "value": 0.85
+      }
+     ],
+     "field": "",
+     "name": "Toimitus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 45,
+     "qty": 100
+    },
+    {
+     "price": 75,
+     "qty": 250
+    },
+    {
+     "price": 85,
+     "qty": 500
+    },
+    {
+     "price": 95,
+     "qty": 750
+    },
+    {
+     "price": 110,
+     "qty": 1000
+    },
+    {
+     "price": 190,
+     "qty": 2500
+    },
+    {
+     "price": 300,
+     "qty": 5000
+    }
+   ],
+   "sort": 8,
+   "startCost": 50,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p09": {
+   "baseCost": 65,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Asennus",
+     "per": "työ",
+     "price": 60
+    },
+    {
+     "name": "Kiinnitystarvikkeet",
+     "per": "yks",
+     "price": 8
+    },
+    {
+     "name": "Porareiät kulmiin",
+     "per": "yks",
+     "price": 4
+    },
+    {
+     "name": "Distanssikiinnikkeet",
+     "per": "yks",
+     "price": 12
+    }
+   ],
+   "format": "",
+   "id": "p09",
+   "material": "",
+   "name": "Kyltit ja taulut",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A1 594 × 841 mm",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A3 297 × 420 mm",
+       "mode": "kerroin",
+       "value": 0.35
+      },
+      {
+       "label": "A2 420 × 594 mm",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "1000 × 700 mm",
+       "mode": "kerroin",
+       "value": 1.3
+      },
+      {
+       "label": "1200 × 800 mm",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "1500 × 1000 mm",
+       "mode": "kerroin",
+       "value": 2.4
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "3 mm alumiinikomposiitti",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "3 mm PVC",
+       "mode": "kerroin",
+       "value": 0.7
+      },
+      {
+       "label": "5 mm kapa-levy",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "10 mm kapa-levy",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "4 mm akryyli",
+       "mode": "kerroin",
+       "value": 1.8
+      },
+      {
+       "label": "Kennolevy",
+       "mode": "kerroin",
+       "value": 0.5
+      }
+     ],
+     "field": "material",
+     "name": "Materiaali"
+    },
+    {
+     "choices": [
+      {
+       "label": "1-puolinen",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "2-puolinen",
+       "mode": "kerroin",
+       "value": 1.7
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 65,
+     "qty": 1
+    },
+    {
+     "price": 120,
+     "qty": 2
+    },
+    {
+     "price": 275,
+     "qty": 5
+    },
+    {
+     "price": 500,
+     "qty": 10
+    },
+    {
+     "price": 1100,
+     "qty": 25
+    }
+   ],
+   "sort": 9,
+   "startCost": 30,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p10": {
+   "baseCost": 0.3,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 35
+    },
+    {
+     "name": "Rei'itys",
+     "per": "yks",
+     "price": 0.01
+    },
+    {
+     "name": "Word-pohja",
+     "per": "työ",
+     "price": 40
+    }
+   ],
+   "format": "",
+   "id": "p10",
+   "material": "",
+   "name": "Kirjelomakkeet",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "100 g offset",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "90 g offset",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "120 g offset",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "100 g Munken Pure",
+       "mode": "kerroin",
+       "value": 1.3
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "1+0",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1.6
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    },
+    {
+     "choices": [
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 0.6
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    }
+   ],
+   "prices": [
+    {
+     "price": 30,
+     "qty": 100
+    },
+    {
+     "price": 50,
+     "qty": 250
+    },
+    {
+     "price": 75,
+     "qty": 500
+    },
+    {
+     "price": 120,
+     "qty": 1000
+    },
+    {
+     "price": 250,
+     "qty": 2500
+    },
+    {
+     "price": 420,
+     "qty": 5000
+    }
+   ],
+   "sort": 10,
+   "startCost": 40,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p11": {
+   "baseCost": 0.55,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 30
+    },
+    {
+     "name": "Osoitetulostus",
+     "per": "yks",
+     "price": 0.05
+    },
+    {
+     "name": "Postitus / kuoritus",
+     "per": "yks",
+     "price": 0.08
+    }
+   ],
+   "format": "",
+   "id": "p11",
+   "material": "",
+   "name": "Kirjekuoret",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "C5 162 × 229",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "C5 ikkuna",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "E65 / DL 110 × 220",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "E65 ikkuna",
+       "mode": "kerroin",
+       "value": 0.85
+      },
+      {
+       "label": "C4 229 × 324",
+       "mode": "kerroin",
+       "value": 1.5
+      },
+      {
+       "label": "C4 ikkuna",
+       "mode": "kerroin",
+       "value": 1.55
+      },
+      {
+       "label": "C6 114 × 162",
+       "mode": "kerroin",
+       "value": 0.7
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "1+0",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 1.6
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    },
+    {
+     "choices": [
+      {
+       "label": "90 g valkoinen",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "100 g Munken",
+       "mode": "kerroin",
+       "value": 1.3
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    }
+   ],
+   "prices": [
+    {
+     "price": 55,
+     "qty": 100
+    },
+    {
+     "price": 85,
+     "qty": 250
+    },
+    {
+     "price": 120,
+     "qty": 500
+    },
+    {
+     "price": 180,
+     "qty": 1000
+    },
+    {
+     "price": 360,
+     "qty": 2500
+    },
+    {
+     "price": 600,
+     "qty": 5000
+    }
+   ],
+   "sort": 11,
+   "startCost": 50,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p12": {
+   "baseCost": 0.25,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 40
+    },
+    {
+     "name": "Numerointi",
+     "per": "yks",
+     "price": 0.03
+    },
+    {
+     "name": "Rei'itys",
+     "per": "yks",
+     "price": 0.01
+    },
+    {
+     "name": "Lehtiöinti (50 arkkia)",
+     "per": "yks",
+     "price": 1.5
+    },
+    {
+     "name": "Nuuttaus / repäisyviiva",
+     "per": "yks",
+     "price": 0.02
+    }
+   ],
+   "format": "",
+   "id": "p12",
+   "material": "",
+   "name": "Lomakkeet",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "A3",
+       "mode": "kerroin",
+       "value": 1.9
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "80 g offset",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "90 g offset",
+       "mode": "kerroin",
+       "value": 1.05
+      },
+      {
+       "label": "Itsejäljentävä 2-os.",
+       "mode": "kerroin",
+       "value": 2.2
+      },
+      {
+       "label": "Itsejäljentävä 3-os.",
+       "mode": "kerroin",
+       "value": 3.2
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "1+1",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "1+0",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 1.6
+      },
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 2.2
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 25,
+     "qty": 100
+    },
+    {
+     "price": 45,
+     "qty": 250
+    },
+    {
+     "price": 70,
+     "qty": 500
+    },
+    {
+     "price": 115,
+     "qty": 1000
+    },
+    {
+     "price": 240,
+     "qty": 2500
+    },
+    {
+     "price": 420,
+     "qty": 5000
+    }
+   ],
+   "sort": 12,
+   "startCost": 50,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p13": {
+   "baseCost": 6,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 80
+    },
+    {
+     "name": "Kansilaminointi",
+     "per": "yks",
+     "price": 0.15
+    },
+    {
+     "name": "Rei'itys kansioon",
+     "per": "yks",
+     "price": 0.02
+    },
+    {
+     "name": "Pikatoimitus",
+     "per": "työ",
+     "price": 40
+    }
+   ],
+   "format": "",
+   "id": "p13",
+   "material": "",
+   "name": "Vihkot ja kirjaset",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1.8
+      },
+      {
+       "label": "A6",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "210 × 210 mm",
+       "mode": "kerroin",
+       "value": 1.6
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "16 sivua",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "8 sivua",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "12 sivua",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "20 sivua",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "24 sivua",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "32 sivua",
+       "mode": "kerroin",
+       "value": 1.8
+      },
+      {
+       "label": "48 sivua",
+       "mode": "kerroin",
+       "value": 2.6
+      }
+     ],
+     "field": "printInfo",
+     "name": "Sivumäärä"
+    },
+    {
+     "choices": [
+      {
+       "label": "130 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "115 g silk",
+       "mode": "kerroin",
+       "value": 0.95
+      },
+      {
+       "label": "90 g offset",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "170 g silk",
+       "mode": "kerroin",
+       "value": 1.15
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "Sama paperi kuin sisus",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "250 g kansi",
+       "mode": "yks",
+       "value": 0.15
+      },
+      {
+       "label": "300 g kansi",
+       "mode": "yks",
+       "value": 0.2
+      }
+     ],
+     "field": "",
+     "name": "Kansi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "1+1",
+       "mode": "kerroin",
+       "value": 0.55
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 60,
+     "qty": 10
+    },
+    {
+     "price": 110,
+     "qty": 25
+    },
+    {
+     "price": 180,
+     "qty": 50
+    },
+    {
+     "price": 300,
+     "qty": 100
+    },
+    {
+     "price": 650,
+     "qty": 250
+    },
+    {
+     "price": 1150,
+     "qty": 500
+    }
+   ],
+   "sort": 13,
+   "startCost": 80,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p14": {
+   "baseCost": 25,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 150
+    },
+    {
+     "name": "Kansilaminointi",
+     "per": "yks",
+     "price": 0.3
+    },
+    {
+     "name": "Kansiliepeet",
+     "per": "yks",
+     "price": 0.8
+    },
+    {
+     "name": "Kannen kohdelakkaus",
+     "per": "työ",
+     "price": 80
+    },
+    {
+     "name": "ISBN-viivakoodi",
+     "per": "työ",
+     "price": 20
+    }
+   ],
+   "format": "",
+   "id": "p14",
+   "material": "",
+   "name": "Kirjat",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A5 148 × 210",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "B5 176 × 250",
+       "mode": "kerroin",
+       "value": 1.3
+      },
+      {
+       "label": "170 × 240",
+       "mode": "kerroin",
+       "value": 1.25
+      },
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1.8
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "101–200 sivua",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "enint. 100 sivua",
+       "mode": "kerroin",
+       "value": 0.75
+      },
+      {
+       "label": "201–300 sivua",
+       "mode": "kerroin",
+       "value": 1.5
+      },
+      {
+       "label": "301–400 sivua",
+       "mode": "kerroin",
+       "value": 2
+      }
+     ],
+     "field": "printInfo",
+     "name": "Sivumäärä"
+    },
+    {
+     "choices": [
+      {
+       "label": "Liimasidonta, pehmeä kansi",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Kovakantinen",
+       "mode": "yks",
+       "value": 6
+      },
+      {
+       "label": "Kierresidonta",
+       "mode": "kerroin",
+       "value": 0.95
+      },
+      {
+       "label": "PUR-sidonta",
+       "mode": "kerroin",
+       "value": 1.1
+      }
+     ],
+     "field": "",
+     "name": "Sidonta"
+    },
+    {
+     "choices": [
+      {
+       "label": "1+1 mustavalko",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+4 väri",
+       "mode": "kerroin",
+       "value": 1.8
+      }
+     ],
+     "field": "colors",
+     "name": "Sisus"
+    },
+    {
+     "choices": [
+      {
+       "label": "90 g offset",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "80 g Munken Print Cream",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "115 g silk",
+       "mode": "kerroin",
+       "value": 1.2
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    }
+   ],
+   "prices": [
+    {
+     "price": 25,
+     "qty": 1
+    },
+    {
+     "price": 90,
+     "qty": 5
+    },
+    {
+     "price": 150,
+     "qty": 10
+    },
+    {
+     "price": 300,
+     "qty": 25
+    },
+    {
+     "price": 520,
+     "qty": 50
+    },
+    {
+     "price": 900,
+     "qty": 100
+    },
+    {
+     "price": 2000,
+     "qty": 250
+    }
+   ],
+   "sort": 14,
+   "startCost": 120,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p15": {
+   "baseCost": 25,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 90
+    },
+    {
+     "name": "Ripustin",
+     "per": "yks",
+     "price": 0.3
+    },
+    {
+     "name": "Pahvitausta",
+     "per": "yks",
+     "price": 0.4
+    },
+    {
+     "name": "Kuvankäsittely",
+     "per": "työ",
+     "price": 15
+    },
+    {
+     "name": "Kirjekuori / pakkaus",
+     "per": "yks",
+     "price": 0.5
+    }
+   ],
+   "format": "",
+   "id": "p15",
+   "material": "",
+   "name": "Kalenterit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "Seinäkalenteri A3",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Seinäkalenteri A4",
+       "mode": "kerroin",
+       "value": 0.7
+      },
+      {
+       "label": "Pöytäkalenteri A5 vaaka",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "Pöytäkalenteri A6",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "Taskukalenteri",
+       "mode": "kerroin",
+       "value": 0.5
+      }
+     ],
+     "field": "format",
+     "name": "Malli"
+    },
+    {
+     "choices": [
+      {
+       "label": "12 + kansi (kk/sivu)",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "6 + kansi (2 kk/sivu)",
+       "mode": "kerroin",
+       "value": 0.65
+      }
+     ],
+     "field": "printInfo",
+     "name": "Sivut"
+    },
+    {
+     "choices": [
+      {
+       "label": "170 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "200 g silk",
+       "mode": "kerroin",
+       "value": 1.15
+      },
+      {
+       "label": "250 g matta",
+       "mode": "kerroin",
+       "value": 1.3
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "Wire-O",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Nidottu",
+       "mode": "kerroin",
+       "value": 0.85
+      }
+     ],
+     "field": "",
+     "name": "Sidonta"
+    }
+   ],
+   "prices": [
+    {
+     "price": 25,
+     "qty": 1
+    },
+    {
+     "price": 95,
+     "qty": 5
+    },
+    {
+     "price": 160,
+     "qty": 10
+    },
+    {
+     "price": 330,
+     "qty": 25
+    },
+    {
+     "price": 560,
+     "qty": 50
+    },
+    {
+     "price": 950,
+     "qty": 100
+    }
+   ],
+   "sort": 15,
+   "startCost": 90,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p16": {
+   "baseCost": 0.5,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 30
+    },
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 0.05
+    },
+    {
+     "name": "Pyöristetyt kulmat",
+     "per": "yks",
+     "price": 0.02
+    },
+    {
+     "name": "Kirjekuoret",
+     "per": "yks",
+     "price": 0.12
+    }
+   ],
+   "format": "",
+   "id": "p16",
+   "material": "",
+   "name": "Postikortit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A6 105 × 148",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "148 × 148 neliö",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "DL 99 × 210",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "A5 148 × 210",
+       "mode": "kerroin",
+       "value": 1.8
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "300 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "350 g matta",
+       "mode": "kerroin",
+       "value": 1.1
+      },
+      {
+       "label": "300 g pinnoittamaton",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "350 g kierrätys",
+       "mode": "kerroin",
+       "value": 1.15
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+1",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 0.8
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 50,
+     "qty": 100
+    },
+    {
+     "price": 65,
+     "qty": 200
+    },
+    {
+     "price": 74,
+     "qty": 300
+    },
+    {
+     "price": 81,
+     "qty": 400
+    },
+    {
+     "price": 100,
+     "qty": 500
+    },
+    {
+     "price": 145,
+     "qty": 1000
+    },
+    {
+     "price": 300,
+     "qty": 2500
+    }
+   ],
+   "sort": 16,
+   "startCost": 40,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p17": {
+   "baseCost": 2.5,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Taitto / asettelu",
+     "per": "työ",
+     "price": 35
+    },
+    {
+     "name": "Nuuttaus",
+     "per": "yks",
+     "price": 0.08
+    },
+    {
+     "name": "Kirjekuoret",
+     "per": "yks",
+     "price": 0.15
+    },
+    {
+     "name": "Kuumafoliointi",
+     "per": "työ",
+     "price": 45
+    },
+    {
+     "name": "Muuttuvat nimet",
+     "per": "yks",
+     "price": 0.1
+    }
+   ],
+   "format": "",
+   "id": "p17",
+   "material": "",
+   "name": "Kutsu- ja onnittelukortit",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "Taitettu A6 (A5 auki)",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Taitettu 148 × 148",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "Taitettu A5 (A4 auki)",
+       "mode": "kerroin",
+       "value": 1.7
+      },
+      {
+       "label": "Yksiosainen A6",
+       "mode": "kerroin",
+       "value": 0.6
+      }
+     ],
+     "field": "format",
+     "name": "Malli"
+    },
+    {
+     "choices": [
+      {
+       "label": "300 g silk",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "300 g pinnoittamaton",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "300 g pellavapinta",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "350 g helmiäiskartonki",
+       "mode": "kerroin",
+       "value": 1.7
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    },
+    {
+     "choices": [
+      {
+       "label": "4+4 CMYK",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "4+0 CMYK",
+       "mode": "kerroin",
+       "value": 0.85
+      }
+     ],
+     "field": "colors",
+     "name": "Painatus"
+    }
+   ],
+   "prices": [
+    {
+     "price": 25,
+     "qty": 10
+    },
+    {
+     "price": 45,
+     "qty": 25
+    },
+    {
+     "price": 70,
+     "qty": 50
+    },
+    {
+     "price": 110,
+     "qty": 100
+    },
+    {
+     "price": 220,
+     "qty": 250
+    },
+    {
+     "price": 380,
+     "qty": 500
+    }
+   ],
+   "sort": 17,
+   "startCost": 40,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p18": {
+   "baseCost": 20,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Kultaus kanteen",
+     "per": "yks",
+     "price": 8
+    },
+    {
+     "name": "Selkäteksti",
+     "per": "yks",
+     "price": 5
+    },
+    {
+     "name": "Muistitikkutasku",
+     "per": "yks",
+     "price": 3
+    },
+    {
+     "name": "Pikatyö",
+     "per": "työ",
+     "price": 25
+    }
+   ],
+   "format": "",
+   "id": "p18",
+   "material": "",
+   "name": "Opinnäytetyöt ja sidonta",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "Liimasidonta, pehmeä kansi",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Kovat kannet ja kultaus",
+       "mode": "yks",
+       "value": 25
+      },
+      {
+       "label": "Kierresidonta",
+       "mode": "kerroin",
+       "value": 0.6
+      },
+      {
+       "label": "Nidonta",
+       "mode": "kerroin",
+       "value": 0.35
+      }
+     ],
+     "field": "",
+     "name": "Sidonta"
+    },
+    {
+     "choices": [
+      {
+       "label": "61–120 sivua",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "enint. 60 sivua",
+       "mode": "kerroin",
+       "value": 0.8
+      },
+      {
+       "label": "121–200 sivua",
+       "mode": "kerroin",
+       "value": 1.4
+      },
+      {
+       "label": "201–300 sivua",
+       "mode": "kerroin",
+       "value": 1.9
+      }
+     ],
+     "field": "printInfo",
+     "name": "Sivumäärä"
+    },
+    {
+     "choices": [
+      {
+       "label": "Mustavalko",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "Väri",
+       "mode": "kerroin",
+       "value": 1.8
+      }
+     ],
+     "field": "colors",
+     "name": "Sisus"
+    },
+    {
+     "choices": [
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 0.8
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    }
+   ],
+   "prices": [
+    {
+     "price": 20,
+     "qty": 1
+    },
+    {
+     "price": 36,
+     "qty": 2
+    },
+    {
+     "price": 50,
+     "qty": 3
+    },
+    {
+     "price": 78,
+     "qty": 5
+    },
+    {
+     "price": 140,
+     "qty": 10
+    }
+   ],
+   "sort": 18,
+   "startCost": 0,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p19": {
+   "baseCost": 0.25,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Nidonta",
+     "per": "yks",
+     "price": 0.1
+    },
+    {
+     "name": "Rei'itys",
+     "per": "yks",
+     "price": 0.02
+    },
+    {
+     "name": "Kierresidonta",
+     "per": "yks",
+     "price": 3.5
+    },
+    {
+     "name": "Taittaminen",
+     "per": "yks",
+     "price": 0.03
+    }
+   ],
+   "format": "",
+   "id": "p19",
+   "material": "",
+   "name": "Mustavalkokopiot",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A3",
+       "mode": "kerroin",
+       "value": 2
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 0.6
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "1-puolinen",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "2-puolinen",
+       "mode": "kerroin",
+       "value": 1.7
+      }
+     ],
+     "field": "colors",
+     "name": "Puolet"
+    },
+    {
+     "choices": [
+      {
+       "label": "80 g",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "100 g",
+       "mode": "kerroin",
+       "value": 1.2
+      },
+      {
+       "label": "160 g",
+       "mode": "kerroin",
+       "value": 1.8
+      },
+      {
+       "label": "250 g kartonki",
+       "mode": "kerroin",
+       "value": 3
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    }
+   ],
+   "prices": [
+    {
+     "price": 0.25,
+     "qty": 1
+    },
+    {
+     "price": 2.1,
+     "qty": 10
+    },
+    {
+     "price": 9.5,
+     "qty": 50
+    },
+    {
+     "price": 17,
+     "qty": 100
+    },
+    {
+     "price": 70,
+     "qty": 500
+    },
+    {
+     "price": 120,
+     "qty": 1000
+    },
+    {
+     "price": 500,
+     "qty": 5000
+    }
+   ],
+   "sort": 19,
+   "startCost": 0,
+   "tiers": [],
+   "unit": "kpl"
+  },
+  "p20": {
+   "baseCost": 0.6,
+   "colors": "",
+   "description": "",
+   "extras": [
+    {
+     "name": "Laminointi",
+     "per": "yks",
+     "price": 0.8
+    },
+    {
+     "name": "Nidonta",
+     "per": "yks",
+     "price": 0.1
+    },
+    {
+     "name": "Kierresidonta",
+     "per": "yks",
+     "price": 3.5
+    },
+    {
+     "name": "Leikkaus",
+     "per": "työ",
+     "price": 5
+    }
+   ],
+   "format": "",
+   "id": "p20",
+   "material": "",
+   "name": "Värikopiot",
+   "options": [
+    {
+     "choices": [
+      {
+       "label": "A4",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "A3",
+       "mode": "kerroin",
+       "value": 2
+      },
+      {
+       "label": "SRA3",
+       "mode": "kerroin",
+       "value": 2.2
+      },
+      {
+       "label": "A5",
+       "mode": "kerroin",
+       "value": 0.6
+      }
+     ],
+     "field": "format",
+     "name": "Koko"
+    },
+    {
+     "choices": [
+      {
+       "label": "1-puolinen",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "2-puolinen",
+       "mode": "kerroin",
+       "value": 1.7
+      }
+     ],
+     "field": "colors",
+     "name": "Puolet"
+    },
+    {
+     "choices": [
+      {
+       "label": "100 g",
+       "mode": "kerroin",
+       "value": 1
+      },
+      {
+       "label": "80 g",
+       "mode": "kerroin",
+       "value": 0.9
+      },
+      {
+       "label": "160 g silk",
+       "mode": "kerroin",
+       "value": 1.3
+      },
+      {
+       "label": "250 g silk",
+       "mode": "kerroin",
+       "value": 1.8
+      },
+      {
+       "label": "300 g kartonki",
+       "mode": "kerroin",
+       "value": 2.1
+      }
+     ],
+     "field": "material",
+     "name": "Paperi"
+    }
+   ],
+   "prices": [
+    {
+     "price": 0.6,
+     "qty": 1
+    },
+    {
+     "price": 5,
+     "qty": 10
+    },
+    {
+     "price": 22.5,
+     "qty": 50
+    },
+    {
+     "price": 42,
+     "qty": 100
+    },
+    {
+     "price": 190,
+     "qty": 500
+    },
+    {
+     "price": 350,
+     "qty": 1000
+    },
+    {
+     "price": 1600,
+     "qty": 5000
+    }
+   ],
+   "sort": 20,
+   "startCost": 0,
+   "tiers": [],
+   "unit": "kpl"
+  }
+ },
+ "suppliers": {
+  "s-folio": {
+   "city": "Espoo",
+   "contact": "Timo Heikkinen",
+   "email": "timo@hohto.example.fi",
+   "id": "s-folio",
+   "leadTime": "5–7 arkipäivää",
+   "name": "Foliopaino Hohto Oy",
+   "notes": "Foliolaatat valmistetaan itse, 2 pv lisäaika uudelle laatalle.",
+   "phone": "044 333 4455",
+   "postcode": "02150",
+   "specialty": "Kuumafoliointi, Kohopaino, Kohdelakkaus",
+   "street": "Tekniikantie 7"
+  },
+  "s-offset": {
+   "city": "Tampere",
+   "contact": "Jari Nieminen",
+   "email": "jari@arkkipaino.example.fi",
+   "id": "s-offset",
+   "leadTime": "7–10 arkipäivää",
+   "name": "Offsetpaino Arkki Oy",
+   "notes": "Kannattava yli 5 000 kpl painoksissa. Rahti Helsinkiin 1 pv.",
+   "phone": "040 555 6677",
+   "postcode": "33100",
+   "specialty": "Offset, Suuret painosmäärät, Kirjekuoret",
+   "street": "Paperitie 12"
+  },
+  "s-sidonta": {
+   "city": "Helsinki",
+   "contact": "Marko Lehtinen",
+   "email": "tilaukset@kansi.example.fi",
+   "id": "s-sidonta",
+   "leadTime": "3–5 arkipäivää",
+   "name": "Sidontapalvelu Kansi Oy",
+   "notes": "Kovakantiset kirjat ja opinnäytetyöt. Nouto aamupäivisin.",
+   "phone": "040 111 2233",
+   "postcode": "00510",
+   "specialty": "Sidonta, Kovakansi, Kierresidonta",
+   "street": "Konepajankuja 3"
+  },
+  "s-suurkuva": {
+   "city": "Helsinki",
+   "contact": "Jenni Karjalainen",
+   "email": "myynti@isokuva.example.fi",
+   "id": "s-suurkuva",
+   "leadTime": "2–4 arkipäivää",
+   "name": "Isokuva Print Oy",
+   "notes": "Leveys max 5 m. Toimittaa suoraan asiakkaalle pyydettäessä.",
+   "phone": "050 222 3344",
+   "postcode": "00380",
+   "specialty": "Suurkuva, Banderollit, Roll-upit",
+   "street": "Valimotie 18"
+  },
+  "s-tarra": {
+   "city": "Vantaa",
+   "contact": "Sari Mäkinen",
+   "email": "sari@tarrapro.example.fi",
+   "id": "s-tarra",
+   "leadTime": "4–6 arkipäivää",
+   "name": "Etikettitalo Tarra-Pro Oy",
+   "notes": "Rullatarrat ja muotoonleikatut tarrat. Minimierä 250 kpl.",
+   "phone": "045 444 5566",
+   "postcode": "01510",
+   "specialty": "Tarrat, Rullaetiketit, Stanssaus",
+   "street": "Pakkasraitti 4"
+  }
+ },
+ "settings": {
+  "bic": "",
+  "billingFee": 6,
+  "city": "Helsinki",
+  "email": "copy-set@copy-set.fi",
+  "iban": "",
+  "margin": 30,
+  "name": "Copy-Set Oy",
+  "offerValidity": 30,
+  "phone": "+358 9 877 0570",
+  "postcode": "00520",
+  "startCost": 50,
+  "street": "Asemapäällikönkatu 12 B 5",
+  "terms": 21,
+  "theme": {
+   "bg": {
+    "band": "#E9E7E4",
+    "paper": "#F5F4F2",
+    "sheet": "#FFFFFF"
+   },
+   "buttons": {
+    "act:new-offer": "Y",
+    "act:new-order": "G"
+   },
+   "tones": {
+    "B": "#9CCBEF",
+    "G": "#8FD19E",
+    "H": "#E4E2DE",
+    "L": "#C9B6EA",
+    "O": "#f0bb7a",
+    "R": "#B3261E",
+    "W": "#FFFFFF",
+    "Y": "#f9e39a"
+   }
+  },
+  "vat": 25.5,
+  "web": "www.copy-set.fi",
+  "ytunnus": ""
+ }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "copyset-erp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Copy-Set ERP – tarjoukset, tilaukset, tuotanto, laskutus ja CRM painotalolle (Hailer App)",
+  "type": "module",
+  "files": ["dist"],
+  "scripts": {
+    "build": "node build.mjs",
+    "prepack": "node build.mjs",
+    "dev": "npx --yes serve dist -l 3000",
+    "test": "bash tests/run_all.sh",
+    "publish-production": "node node_modules/@hailer/app-sdk/lib/tools/publish.cjs ./`npm pack` --production",
+    "publish-staging": "node node_modules/@hailer/app-sdk/lib/tools/publish.cjs ./`npm pack` --staging"
+  },
+  "dependencies": {
+    "@hailer/app-sdk": "2.9.0"
+  },
+  "engines": { "node": ">=20" }
+}
